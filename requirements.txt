@@ -1,0 +1,11 @@
+pywin32==306
+psutil==5.9.8
+pymem==1.13.0
+pyMeow==1.1.0
+numpy==1.26.4
+pyqt6==6.7.0
+requests==2.32.3
+colorama==0.4.6
+pycryptodome==3.20.0
+keyboard==0.13.5
+pyinstaller==6.6.0
