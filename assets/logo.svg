@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <rect width="256" height="256" fill="#0B0F14"/>
+  <!-- stealth camo texture patches -->
+  <path d="M0 36 L28 22 L52 40 L30 58 Z" fill="#0E141A"/>
+  <path d="M196 0 L232 12 L218 44 L184 30 Z" fill="#0E141A"/>
+  <path d="M14 210 L44 196 L70 218 L42 236 L8 232 Z" fill="#0F161D"/>
+  <path d="M200 190 L236 204 L224 238 L190 226 Z" fill="#0F161D"/>
+  <path d="M96 0 L124 8 L112 30 L86 24 Z" fill="#101820"/>
+  <path d="M150 226 L182 232 L176 252 L144 246 Z" fill="#101820"/>
+  <path d="M228 90 L252 96 L244 122 L222 116 Z" fill="#0E141A"/>
+  <path d="M0 130 L18 122 L26 146 L6 152 Z" fill="#0E141A"/>
+
+  <!-- chameleon head silhouette (facing left, off-center) -->
+  <g>
+    <!-- head crest / casque -->
+    <path d="M64 118 L74 84 L96 76 L112 92 L118 112 L112 128 L96 134 L78 132 Z" fill="#39FF88"/>
+    <!-- eye bulge and slit eye -->
+    <circle cx="88" cy="108" r="13" fill="#E8F1E9"/>
+    <path d="M80 108 Q88 100 96 108 Q88 116 80 108 Z" fill="#0B0F14"/>
+    <circle cx="88" cy="108" r="3.2" fill="#FFD23F"/>
+    <!-- mouth // mischievous smirk -->
+    <path d="M64 124 Q78 132 94 128 L90 134 Q74 138 62 130 Z" fill="#0B0F14"/>
+    <!-- nostril -->
+    <circle cx="70" cy="114" r="2" fill="#0B0F14"/>
+  </g>
+
+  <!-- body / neck bridging to spiral -->
+  <path d="M110 96 L138 92 L148 108 L140 126 L120 132 L112 126 Z" fill="#39FF88"/>
+  <!-- body camo flecks -->
+  <path d="M118 100 L126 98 L124 106 L116 108 Z" fill="#0B0F14" opacity="0.55"/>
+  <path d="M126 116 L134 114 L132 122 L124 124 Z" fill="#0B0F14" opacity="0.45"/>
+  <path d="M114 120 L120 118 L118 126 L112 126 Z" fill="#0B0F14" opacity="0.4"/>
+
+  <!-- pixelated circuit spiral (tail morphing into circuit-board) -->
+  <g>
+    <!-- main spiral path built from stepped polygons -->
+    <path d="M142 100 L162 100 L162 92 L188 92 L188 104 L204 104 L204 128 L196 128 L196 144 L176 144 L176 156 L148 156 L148 144 L136 144 L136 128 L128 128 L128 108 L142 108 Z" fill="#39FF88"/>
+    <!-- inner cutout forming spiral negative space -->
+    <path d="M148 112 L178 112 L178 124 L190 124 L190 136 L168 136 L168 140 L156 140 L156 132 L146 132 L146 120 L148 120 Z" fill="#0B0F14"/>
+    <!-- pixel trail / circuit traces -->
+    <rect x="164" y="86" width="8" height="8" fill="#39FF88"/>
+    <rect x="180" y="80" width="8" height="8" fill="#39FF88"/>
+    <rect x="196" y="86" width="8" height="8" fill="#39FF88"/>
+    <rect x="204" y="140" width="8" height="8" fill="#39FF88"/>
+    <rect x="188" y="148" width="8" height="8" fill="#39FF88"/>
+    <rect x="172" y="160" width="8" height="8" fill="#39FF88"/>
+    <rect x="148" y="164" width="8" height="8" fill="#39FF88"/>
+    <rect x="128" y="152" width="8" height="8" fill="#39FF88"/>
+    <rect x="120" y="136" width="8" height="8" fill="#39FF88"/>
+    <!-- circuit nodes / gold contacts -->
+    <rect x="168" y="80" width="4" height="4" fill="#FFD23F"/>
+    <rect x="200" y="140" width="4" height="4" fill="#FFD23F"/>
+    <rect x="172" y="156" width="4" height="4" fill="#FFD23F"/>
+    <rect x="144" y="160" width="4" height="4" fill="#FFD23F"/>
+    <rect x="124" y="148" width="4" height="4" fill="#FFD23F"/>
+    <circle cx="186" cy="90" r="3" fill="#FFD23F"/>
+    <circle cx="192" cy="152" r="3" fill="#FFD23F"/>
+    <circle cx="132" cy="144" r="3" fill="#FFD23F"/>
+    <!-- coiled tail tip curl -->
+    <path d="M142 100 L138 90 L146 84 L154 90 L150 100 Z" fill="#E8F1E9"/>
+  </g>
+
+  <!-- tongue / antenna darting out (mischief) -->
+  <path d="M62 128 L44 138 L40 134 L46 126 L58 122 Z" fill="#FFD23F"/>
+  <rect x="36" y="132" width="6" height="6" fill="#FFD23F"/>
+  <rect x="30" y="136" width="6" height="6" fill="#FFD23F"/>
+
+  <!-- small wordmark -->
+  <text x="128" y="244" font-family="monospace, sans-serif" font-size="10" font-weight="700" fill="#E8F1E9" text-anchor="middle" letter-spacing="2">CHAMELEON-MECCHA-MOD</text>
+</svg>
