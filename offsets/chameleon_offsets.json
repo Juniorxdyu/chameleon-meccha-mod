@@ -1,0 +1,17 @@
+{
+  "game_version": "1.4.7-2026",
+  "build_hash": "f3a9c2e1b47d",
+  "updated": "2026-02-14",
+  "modules": {
+    "player_base": "0x02E4A1C0",
+    "entity_list": "0x02E4B2D8",
+    "camera_ptr": "0x02E4C3F0",
+    "world_to_screen": "0x00A1B2C4",
+    "view_matrix": "0x02E4D108"
+  },
+  "features": {
+    "aimbot": { "enabled_offset": "0x1A2B", "smoothing_offset": "0x1A34" },
+    "esp": { "max_entities": 128, "render_offset": "0x2C10" },
+    "wallhack": { "flag_offset": "0x3D20" }
+  }
+}
